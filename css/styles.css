@@ -2,18 +2,19 @@
     --primery-text-color:#757575;
     --title-text-color:#000000;
     --accent-text-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+    --primery-button-color:#212121;
 }
 
 body {
     font-family: roboto;
-    background-color: #FFFFFF;
+    background-color:var(--primary-white-color);
     color: var(--primery-text-color);
 /* хедер */
 }
 .list{
     list-style: none;
 }
-
 .logo{
     color: var(--accent-text-color);
 }
@@ -26,13 +27,17 @@ body {
 .mail{
     color: var(--accent-text-color);
 }
-.site-nav{
-    color: #212121;
+.site-title{
+    color: var(--primery-button-color);
 }
 .tel{
     color: var(--primery-text-color)
 }
 /* main */
+.button .button-title{
+    color: var(--primery-button-color);
+    background-color: #F5F4FA;
+}
 .hero-title{
     color: var(--title-text-color);
 }
@@ -43,6 +48,12 @@ body {
     color: var(--title-text-color);
 }
 /* футер */
+.logo-title{
+    color: var(--primary-white-color);
+}
+.adress{
+    color: var(--primary-white-color);
+}
 .contacts{
     color: rgba(255, 255, 255, 0.6);
 }
