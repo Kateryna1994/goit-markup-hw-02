@@ -55,7 +55,6 @@ body {
     background-color: var(--accent-text-color);
 }
 
-button.primary-button.button-title {}
 .button .button-title{
     font-family: inherit;
     color: var(--primery-button-color);
@@ -66,8 +65,6 @@ button.primary-button.button-title {}
     align-items: center;
     text-align: center;
 }
-
-button.primary-button.button-title {}
 
 .items{
     background: #F5F5F5;
