@@ -50,6 +50,12 @@ body {
     text-decoration: none;
 }
 /* main */
+.button .primary-button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+}
+
+button.primary-button.button-title {}
 .button .button-title{
     font-family: inherit;
     color: var(--primery-button-color);
@@ -59,6 +65,20 @@ body {
     line-height: 1.63;
     align-items: center;
     text-align: center;
+}
+
+button.primary-button.button-title {}
+
+.items{
+    background: #F5F5F5;
+}
+.sitebar{
+    background: #F5F4FA;
+}
+.hero{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 .hero .hero-title{
     color: var(--title-text-color);
@@ -73,8 +93,9 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    align-items: center;
     text-align: center;
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
 }
 .heading{
     color: var(--primery-button-color) ;
@@ -119,6 +140,11 @@ line-height: 1.19;
 }
 
 /* футер */
+.footer{
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
 .logo-title{
     color: var(--primary-white-color);
 }
